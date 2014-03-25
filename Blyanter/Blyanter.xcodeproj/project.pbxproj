@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B09243118DB8CD1007EE515 /* Arrow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B09243018DB8CD1007EE515 /* Arrow.gif */; };
+		0B09243318DB8CD7007EE515 /* Rocket.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B09243218DB8CD7007EE515 /* Rocket.gif */; };
+		0B09243518DBA478007EE515 /* Pen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B09243418DBA478007EE515 /* Pen.gif */; };
+		0B3CE53F18DA7D290060E2A0 /* GamesScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE53E18DA7D290060E2A0 /* GamesScene.m */; };
+		0B84324918D8FB9B00C1EDCC /* Saca-Puntas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B84324818D8FB9B00C1EDCC /* Saca-Puntas.gif */; };
+		0BD128CE18DA1DF300306228 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD128CD18DA1DF300306228 /* HelloScene.m */; };
+		0BD128D018DA1E9000306228 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD128CF18DA1E9000306228 /* Main_iPhone.storyboard */; };
+		0BD6ADC418D8972800A17C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC318D8972800A17C3B /* Foundation.framework */; };
+		0BD6ADC618D8972800A17C3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC518D8972800A17C3B /* CoreGraphics.framework */; };
+		0BD6ADC818D8972800A17C3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC718D8972800A17C3B /* UIKit.framework */; };
+		0BD6ADCA18D8972800A17C3B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC918D8972800A17C3B /* SpriteKit.framework */; };
+		0BD6ADD018D8972800A17C3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BD6ADCE18D8972800A17C3B /* InfoPlist.strings */; };
+		0BD6ADD218D8972800A17C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD6ADD118D8972800A17C3B /* main.m */; };
+		0BD6ADD618D8972800A17C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD6ADD518D8972800A17C3B /* AppDelegate.m */; };
+		0BD6ADDF18D8972800A17C3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD6ADDE18D8972800A17C3B /* ViewController.m */; };
+		0BD6ADE618D8972800A17C3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD6ADE518D8972800A17C3B /* Images.xcassets */; };
+		0BD6ADED18D8972800A17C3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADEC18D8972800A17C3B /* XCTest.framework */; };
+		0BD6ADEE18D8972800A17C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC318D8972800A17C3B /* Foundation.framework */; };
+		0BD6ADEF18D8972800A17C3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6ADC718D8972800A17C3B /* UIKit.framework */; };
+		0BD6ADF718D8972800A17C3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BD6ADF518D8972800A17C3B /* InfoPlist.strings */; };
+		0BD6ADF918D8972800A17C3B /* BlyanterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD6ADF818D8972800A17C3B /* BlyanterTests.m */; };
+		0BD6AE0918D8982300A17C3B /* fondo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BD6AE0818D8982300A17C3B /* fondo1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BD6ADF018D8972800A17C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BD6ADB818D8972800A17C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD6ADBF18D8972800A17C3B;
+			remoteInfo = Blyanter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B09243018DB8CD1007EE515 /* Arrow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Arrow.gif; sourceTree = "<group>"; };
+		0B09243218DB8CD7007EE515 /* Rocket.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rocket.gif; sourceTree = "<group>"; };
+		0B09243418DBA478007EE515 /* Pen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pen.gif; sourceTree = "<group>"; };
+		0B3CE53D18DA7D290060E2A0 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../GameScene.h; sourceTree = "<group>"; };
+		0B3CE53E18DA7D290060E2A0 /* GamesScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamesScene.m; path = ../GamesScene.m; sourceTree = "<group>"; };
+		0B84324818D8FB9B00C1EDCC /* Saca-Puntas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Saca-Puntas.gif"; sourceTree = "<group>"; };
+		0BD128CC18DA1DF300306228 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloScene.h; path = ../HelloScene.h; sourceTree = "<group>"; };
+		0BD128CD18DA1DF300306228 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloScene.m; path = ../HelloScene.m; sourceTree = "<group>"; };
+		0BD128CF18DA1E9000306228 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0BD6ADC018D8972800A17C3B /* Blyanter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blyanter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD6ADC318D8972800A17C3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BD6ADC518D8972800A17C3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BD6ADC718D8972800A17C3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BD6ADC918D8972800A17C3B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0BD6ADCD18D8972800A17C3B /* Blyanter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blyanter-Info.plist"; sourceTree = "<group>"; };
+		0BD6ADCF18D8972800A17C3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BD6ADD118D8972800A17C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BD6ADD318D8972800A17C3B /* Blyanter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blyanter-Prefix.pch"; sourceTree = "<group>"; };
+		0BD6ADD418D8972800A17C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BD6ADD518D8972800A17C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BD6ADDD18D8972800A17C3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BD6ADDE18D8972800A17C3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BD6ADE518D8972800A17C3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BD6ADEB18D8972800A17C3B /* BlyanterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlyanterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD6ADEC18D8972800A17C3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BD6ADF418D8972800A17C3B /* BlyanterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlyanterTests-Info.plist"; sourceTree = "<group>"; };
+		0BD6ADF618D8972800A17C3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BD6ADF818D8972800A17C3B /* BlyanterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlyanterTests.m; sourceTree = "<group>"; };
+		0BD6AE0818D8982300A17C3B /* fondo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD6ADBD18D8972800A17C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD6ADC618D8972800A17C3B /* CoreGraphics.framework in Frameworks */,
+				0BD6ADC818D8972800A17C3B /* UIKit.framework in Frameworks */,
+				0BD6ADCA18D8972800A17C3B /* SpriteKit.framework in Frameworks */,
+				0BD6ADC418D8972800A17C3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD6ADE818D8972800A17C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD6ADED18D8972800A17C3B /* XCTest.framework in Frameworks */,
+				0BD6ADEF18D8972800A17C3B /* UIKit.framework in Frameworks */,
+				0BD6ADEE18D8972800A17C3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD6ADB718D8972800A17C3B = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADCB18D8972800A17C3B /* Blyanter */,
+				0BD6ADF218D8972800A17C3B /* BlyanterTests */,
+				0BD6ADC218D8972800A17C3B /* Frameworks */,
+				0BD6ADC118D8972800A17C3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BD6ADC118D8972800A17C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADC018D8972800A17C3B /* Blyanter.app */,
+				0BD6ADEB18D8972800A17C3B /* BlyanterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BD6ADC218D8972800A17C3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADC318D8972800A17C3B /* Foundation.framework */,
+				0BD6ADC518D8972800A17C3B /* CoreGraphics.framework */,
+				0BD6ADC718D8972800A17C3B /* UIKit.framework */,
+				0BD6ADC918D8972800A17C3B /* SpriteKit.framework */,
+				0BD6ADEC18D8972800A17C3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BD6ADCB18D8972800A17C3B /* Blyanter */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADD418D8972800A17C3B /* AppDelegate.h */,
+				0BD6ADD518D8972800A17C3B /* AppDelegate.m */,
+				0BD128CF18DA1E9000306228 /* Main_iPhone.storyboard */,
+				0BD6ADDD18D8972800A17C3B /* ViewController.h */,
+				0BD6ADDE18D8972800A17C3B /* ViewController.m */,
+				0B3CE53D18DA7D290060E2A0 /* GameScene.h */,
+				0B3CE53E18DA7D290060E2A0 /* GamesScene.m */,
+				0BD128CC18DA1DF300306228 /* HelloScene.h */,
+				0BD128CD18DA1DF300306228 /* HelloScene.m */,
+				0BD6ADE518D8972800A17C3B /* Images.xcassets */,
+				0BD6ADCC18D8972800A17C3B /* Supporting Files */,
+			);
+			path = Blyanter;
+			sourceTree = "<group>";
+		};
+		0BD6ADCC18D8972800A17C3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B09243418DBA478007EE515 /* Pen.gif */,
+				0B09243218DB8CD7007EE515 /* Rocket.gif */,
+				0B84324818D8FB9B00C1EDCC /* Saca-Puntas.gif */,
+				0B09243018DB8CD1007EE515 /* Arrow.gif */,
+				0BD6AE0818D8982300A17C3B /* fondo1.jpg */,
+				0BD6ADCD18D8972800A17C3B /* Blyanter-Info.plist */,
+				0BD6ADCE18D8972800A17C3B /* InfoPlist.strings */,
+				0BD6ADD118D8972800A17C3B /* main.m */,
+				0BD6ADD318D8972800A17C3B /* Blyanter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BD6ADF218D8972800A17C3B /* BlyanterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADF818D8972800A17C3B /* BlyanterTests.m */,
+				0BD6ADF318D8972800A17C3B /* Supporting Files */,
+			);
+			path = BlyanterTests;
+			sourceTree = "<group>";
+		};
+		0BD6ADF318D8972800A17C3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD6ADF418D8972800A17C3B /* BlyanterTests-Info.plist */,
+				0BD6ADF518D8972800A17C3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BD6ADBF18D8972800A17C3B /* Blyanter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD6ADFC18D8972800A17C3B /* Build configuration list for PBXNativeTarget "Blyanter" */;
+			buildPhases = (
+				0BD6ADBC18D8972800A17C3B /* Sources */,
+				0BD6ADBD18D8972800A17C3B /* Frameworks */,
+				0BD6ADBE18D8972800A17C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blyanter;
+			productName = Blyanter;
+			productReference = 0BD6ADC018D8972800A17C3B /* Blyanter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BD6ADEA18D8972800A17C3B /* BlyanterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD6ADFF18D8972800A17C3B /* Build configuration list for PBXNativeTarget "BlyanterTests" */;
+			buildPhases = (
+				0BD6ADE718D8972800A17C3B /* Sources */,
+				0BD6ADE818D8972800A17C3B /* Frameworks */,
+				0BD6ADE918D8972800A17C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BD6ADF118D8972800A17C3B /* PBXTargetDependency */,
+			);
+			name = BlyanterTests;
+			productName = BlyanterTests;
+			productReference = 0BD6ADEB18D8972800A17C3B /* BlyanterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BD6ADB818D8972800A17C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Francisco Astaburuaga";
+				TargetAttributes = {
+					0BD6ADEA18D8972800A17C3B = {
+						TestTargetID = 0BD6ADBF18D8972800A17C3B;
+					};
+				};
+			};
+			buildConfigurationList = 0BD6ADBB18D8972800A17C3B /* Build configuration list for PBXProject "Blyanter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BD6ADB718D8972800A17C3B;
+			productRefGroup = 0BD6ADC118D8972800A17C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BD6ADBF18D8972800A17C3B /* Blyanter */,
+				0BD6ADEA18D8972800A17C3B /* BlyanterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BD6ADBE18D8972800A17C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD6ADE618D8972800A17C3B /* Images.xcassets in Resources */,
+				0BD6AE0918D8982300A17C3B /* fondo1.jpg in Resources */,
+				0B09243118DB8CD1007EE515 /* Arrow.gif in Resources */,
+				0BD6ADD018D8972800A17C3B /* InfoPlist.strings in Resources */,
+				0BD128D018DA1E9000306228 /* Main_iPhone.storyboard in Resources */,
+				0B09243318DB8CD7007EE515 /* Rocket.gif in Resources */,
+				0B09243518DBA478007EE515 /* Pen.gif in Resources */,
+				0B84324918D8FB9B00C1EDCC /* Saca-Puntas.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD6ADE918D8972800A17C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD6ADF718D8972800A17C3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BD6ADBC18D8972800A17C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD128CE18DA1DF300306228 /* HelloScene.m in Sources */,
+				0BD6ADDF18D8972800A17C3B /* ViewController.m in Sources */,
+				0B3CE53F18DA7D290060E2A0 /* GamesScene.m in Sources */,
+				0BD6ADD618D8972800A17C3B /* AppDelegate.m in Sources */,
+				0BD6ADD218D8972800A17C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD6ADE718D8972800A17C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD6ADF918D8972800A17C3B /* BlyanterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BD6ADF118D8972800A17C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BD6ADBF18D8972800A17C3B /* Blyanter */;
+			targetProxy = 0BD6ADF018D8972800A17C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BD6ADCE18D8972800A17C3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BD6ADCF18D8972800A17C3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BD6ADF518D8972800A17C3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BD6ADF618D8972800A17C3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BD6ADFA18D8972800A17C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BD6ADFB18D8972800A17C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BD6ADFD18D8972800A17C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blyanter/Blyanter-Prefix.pch";
+				INFOPLIST_FILE = "Blyanter/Blyanter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BD6ADFE18D8972800A17C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blyanter/Blyanter-Prefix.pch";
+				INFOPLIST_FILE = "Blyanter/Blyanter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BD6AE0018D8972800A17C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blyanter.app/Blyanter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blyanter/Blyanter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlyanterTests/BlyanterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BD6AE0118D8972800A17C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blyanter.app/Blyanter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blyanter/Blyanter-Prefix.pch";
+				INFOPLIST_FILE = "BlyanterTests/BlyanterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BD6ADBB18D8972800A17C3B /* Build configuration list for PBXProject "Blyanter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD6ADFA18D8972800A17C3B /* Debug */,
+				0BD6ADFB18D8972800A17C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BD6ADFC18D8972800A17C3B /* Build configuration list for PBXNativeTarget "Blyanter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD6ADFD18D8972800A17C3B /* Debug */,
+				0BD6ADFE18D8972800A17C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BD6ADFF18D8972800A17C3B /* Build configuration list for PBXNativeTarget "BlyanterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD6AE0018D8972800A17C3B /* Debug */,
+				0BD6AE0118D8972800A17C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BD6ADB818D8972800A17C3B /* Project object */;
+}
