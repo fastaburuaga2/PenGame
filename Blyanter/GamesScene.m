@@ -58,7 +58,7 @@
     world.position =CGPointMake(CGRectGetMidX(self.frame)-240,CGRectGetMidY(self.frame)+120);
     world.fontSize = 12;
     world.fontColor = [SKColor blackColor];
-    world.text = @"World 1";
+    world.text = @"World 0";
     
     background = [[SKSpriteNode alloc] initWithImageNamed:(NSString  *) @"fondo1.jpg" ];
     background.position =CGPointMake(CGRectGetMidX(self.frame),CGRectGetMidY(self.frame));
